@@ -1,0 +1,67 @@
+html, body{
+    background-color: salmon;
+    font-size: 16px;
+}
+nav{
+    background-color: rgb(24, 130, 172);
+    width:100%;
+    padding-top: 1rem;
+    padding-bottom: 0.001rem;
+    margin-top: 0;
+}
+nav li{
+    color: lightsalmon;
+    display: inline;
+    margin-left: 1.25rem;
+    font-size: 1.5rem;
+}
+nav li ::content{
+    
+    float: left; 
+}
+.one{
+    margin-top: 200px;
+}
+.one p{
+    background-color: rgba(46, 16, 16, 0.801);
+    color: lightsalmon;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    
+}
+.two{
+    margin-top:50px;
+}
+.two p{
+    color: yellow;
+    text-align: left;
+    padding-top: 2.5rem;
+    font-size: 3rem;
+    
+}
+.two h3{
+    color:white;
+    padding:0;
+}
+.two img{
+    border-radius: 100%;
+    width: 25rem;
+    height: auto;
+}
+@media only screen and (max-width:768px){
+    .two img{
+        border-radius: 0%;
+        width: 30rem;
+        display: block;
+        margin-top: 0.5rem;
+    }
+}
+#footer{
+    color: yellow;
+    font-size: 3rem;
+}
+#quote{
+    color: white;
+}
